@@ -1,0 +1,120 @@
+header {
+	background-color: cyan;
+	font-style: oblique;
+	height: 70px;
+	display: flex;
+	padding-left: 43%
+
+}
+
+
+.navbar {
+	background-color: black;
+	color: white;
+	height: 20px;
+	display: block;
+	font-style: italic;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0e1010;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #2a9090;
+}
+ 
+.about {
+ 	display: grid;
+ 	width: 450px;
+ 	float: left;
+ 	background-color: #e6edef; 
+ 	color: black;
+ }
+
+
+ #footer {
+ 	display: flex;
+ 	width: 100%;
+ 	background-color: #e6edef; 
+ 	height: 70px;
+ 	color: black;
+ 	margin-top: 20px;
+ 	
+ }
+ .empty-div {
+ 	height: 200px;
+ }
+
+
+ .second-part {
+ 	color: black;
+ 	display: grid;
+ 	width: 850px;
+ 	float: right;
+ 	background-color: #fff; 
+ 	color: black;
+ 	position: static;
+ }
+ #about-me {
+ 	text-align: left;
+ 	padding-left: 25px;
+ 	padding-right: 25px; 	
+ }
+
+ #about-me > h2, h4 {
+ 	font-family: Roboto slab;
+ }
+
+ #about-me > p {
+ 	font-family: Aladin;
+ }
+
+ .cats-images {
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+ 	margin-bottom: 50px;
+ }
+
+ .second-part > h2, h4, h1, {
+ 	font-family: Roboto slab;
+ }
+ .second-part > p {
+ 	font-family: Aladin;
+ }
+
+ .search-container {
+ 	float: right;
+ }
+
+ .search-container input {
+ 	padding: 6px; 
+ 	margin-top: 8px;
+ 	font-size: 18px;
+ 	border: none;
+ }
+
+ .search-container button {
+ 	float: right;
+ 	padding: 6px 10px;
+ 	margin-top: 8px;
+ 	margin-right: 16px;
+ 	background: #ddd;
+ 	font-size: 18px;
+ 	border: none;
+ 	cursor: pointer;
+
+ }
